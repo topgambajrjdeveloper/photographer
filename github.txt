@@ -1,3 +1,4 @@
+git commit -m "Fix dependency"
 git remote add origin https://github.com/topgambajrjdeveloper/photographer.git
 git branch -M main
 git push -u origin main
