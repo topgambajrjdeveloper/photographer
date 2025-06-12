@@ -1,0 +1,59 @@
+{
+  "name": "Photography Portfolio",
+  "short_name": "PhotoApp",
+  "description": "Professional photography portfolio showcasing elegant imagery",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#2d2d2d",
+  "theme_color": "#2d2d2d",
+  "orientation": "portrait",
+  "categories": ["photography", "art", "portfolio"],
+  "icons": [
+    {
+      "src": "/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshot1.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Photography Portfolio Home Screen"
+    },
+    {
+      "src": "/screenshot2.png",
+      "sizes": "750x1334",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Photography Portfolio Gallery View"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "View Galleries",
+      "short_name": "Galleries",
+      "description": "View photography galleries",
+      "url": "/galleries",
+      "icons": [{ "src": "/icon-gallery.png", "sizes": "96x96" }]
+    },
+    {
+      "name": "Contact",
+      "short_name": "Contact",
+      "description": "Contact the photographer",
+      "url": "/contact",
+      "icons": [{ "src": "/icon-contact.png", "sizes": "96x96" }]
+    }
+  ],
+  "related_applications": [],
+  "prefer_related_applications": false
+}
